@@ -16,5 +16,6 @@
 @property (strong, nonatomic) IBOutlet MKMapView *mapa;
 
 @property CLLocationManager * locationManager;
+@property (nonatomic, retain) NSMutableArray * talleres;
 
 @end

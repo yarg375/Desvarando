@@ -28,7 +28,6 @@
     
     _talleres = [[Modelo sharedInstance] Datos];
     
-    NSLog(@"%@ Hola",_talleres);
     
     
 }
