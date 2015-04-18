@@ -25,24 +25,24 @@
     
     NSLog(@"%@",[[_talleres objectAtIndex:0] objectForKey:@"nombre"]);
     
-    MisPuntos * taller0 = [[MisPuntos alloc] initWithTitle:[[_talleres objectAtIndex:0] objectForKey:@"nombre"] subtitle:[[_talleres objectAtIndex:0] objectForKey:@"direccion"] andCoordinate: CLLocationCoordinate2DMake(4.89121, -75.8846)];
+    MisPuntos * taller0 = [[MisPuntos alloc] initWithTitle:[[_talleres objectAtIndex:0] objectForKey:@"nombre"] subtitle:[[_talleres objectAtIndex:0] objectForKey:@"direccion"] andCoordinate: CLLocationCoordinate2DMake(4.814783, -75.703196)];
     
     
-    MisPuntos * taller1 = [[MisPuntos alloc] initWithTitle:[[_talleres objectAtIndex:1] objectForKey:@"nombre"] subtitle:[[_talleres objectAtIndex:0] objectForKey:@"direccion"] andCoordinate: CLLocationCoordinate2DMake(4.85421, -75.9046)];
+    MisPuntos * taller1 = [[MisPuntos alloc] initWithTitle:[[_talleres objectAtIndex:1] objectForKey:@"nombre"] subtitle:[[_talleres objectAtIndex:0] objectForKey:@"direccion"] andCoordinate: CLLocationCoordinate2DMake(4.811297, -75.690300)];
     
-    MisPuntos * taller2 = [[MisPuntos alloc] initWithTitle:[[_talleres objectAtIndex:2] objectForKey:@"nombre"] subtitle:[[_talleres objectAtIndex:0] objectForKey:@"direccion"] andCoordinate: CLLocationCoordinate2DMake(4.77921, -75.4346)];
+    MisPuntos * taller2 = [[MisPuntos alloc] initWithTitle:[[_talleres objectAtIndex:2] objectForKey:@"nombre"] subtitle:[[_talleres objectAtIndex:0] objectForKey:@"direccion"] andCoordinate: CLLocationCoordinate2DMake(4.807791, -75.684420)];
     
-    MisPuntos * taller3 = [[MisPuntos alloc] initWithTitle:[[_talleres objectAtIndex:3] objectForKey:@"nombre"] subtitle:[[_talleres objectAtIndex:0] objectForKey:@"direccion"] andCoordinate: CLLocationCoordinate2DMake(4.83995, -75.6046)];
+    MisPuntos * taller3 = [[MisPuntos alloc] initWithTitle:[[_talleres objectAtIndex:3] objectForKey:@"nombre"] subtitle:[[_talleres objectAtIndex:0] objectForKey:@"direccion"] andCoordinate: CLLocationCoordinate2DMake(4.808518, -75.705041)];
     
-    MisPuntos * taller4 = [[MisPuntos alloc] initWithTitle:[[_talleres objectAtIndex:4] objectForKey:@"nombre"] subtitle:[[_talleres objectAtIndex:0] objectForKey:@"direccion"] andCoordinate: CLLocationCoordinate2DMake(4.78087, -75.8746)];
+    MisPuntos * taller4 = [[MisPuntos alloc] initWithTitle:[[_talleres objectAtIndex:4] objectForKey:@"nombre"] subtitle:[[_talleres objectAtIndex:0] objectForKey:@"direccion"] andCoordinate: CLLocationCoordinate2DMake(4.806016, -75.694892)];
     
-    MisPuntos * taller5 = [[MisPuntos alloc] initWithTitle:[[_talleres objectAtIndex:5] objectForKey:@"nombre"] subtitle:[[_talleres objectAtIndex:0] objectForKey:@"direccion"] andCoordinate: CLLocationCoordinate2DMake(4.81979, -75.7246)];
+    MisPuntos * taller5 = [[MisPuntos alloc] initWithTitle:[[_talleres objectAtIndex:5] objectForKey:@"nombre"] subtitle:[[_talleres objectAtIndex:0] objectForKey:@"direccion"] andCoordinate: CLLocationCoordinate2DMake(4.808881, -75.714740)];
     
-    MisPuntos * taller6 = [[MisPuntos alloc] initWithTitle:[[_talleres objectAtIndex:6] objectForKey:@"nombre"] subtitle:[[_talleres objectAtIndex:0] objectForKey:@"direccion"] andCoordinate: CLLocationCoordinate2DMake(4.81790, -75.3646)];
+    MisPuntos * taller6 = [[MisPuntos alloc] initWithTitle:[[_talleres objectAtIndex:6] objectForKey:@"nombre"] subtitle:[[_talleres objectAtIndex:0] objectForKey:@"direccion"] andCoordinate: CLLocationCoordinate2DMake(4.819914, -75.709440)];
     
-    MisPuntos * taller7 = [[MisPuntos alloc] initWithTitle:[[_talleres objectAtIndex:7] objectForKey:@"nombre"] subtitle:[[_talleres objectAtIndex:0] objectForKey:@"direccion"] andCoordinate: CLLocationCoordinate2DMake(4.65689, -75.6846)];
+    MisPuntos * taller7 = [[MisPuntos alloc] initWithTitle:[[_talleres objectAtIndex:7] objectForKey:@"nombre"] subtitle:[[_talleres objectAtIndex:0] objectForKey:@"direccion"] andCoordinate: CLLocationCoordinate2DMake(4.815659, -75.720233)];
     
-    MisPuntos * taller8 = [[MisPuntos alloc] initWithTitle:[[_talleres objectAtIndex:8] objectForKey:@"nombre"] subtitle:[[_talleres objectAtIndex:0] objectForKey:@"direccion"] andCoordinate: CLLocationCoordinate2DMake(4.82478, -75.6946)];
+    MisPuntos * taller8 = [[MisPuntos alloc] initWithTitle:[[_talleres objectAtIndex:8] objectForKey:@"nombre"] subtitle:[[_talleres objectAtIndex:0] objectForKey:@"direccion"] andCoordinate: CLLocationCoordinate2DMake(4.819679, -75.709418)];
     
    
    
@@ -73,7 +73,7 @@
     
    
     
-    MKCoordinateRegion zonaZoom = MKCoordinateRegionMakeWithDistance(userLocation.coordinate, 30000, 30000);
+    MKCoordinateRegion zonaZoom = MKCoordinateRegionMakeWithDistance(userLocation.coordinate, 8000, 8000);
     
     [_mapa setRegion:zonaZoom animated:YES];
     
