@@ -29,15 +29,15 @@ static Modelo * instance;
     
     _talleres = [[NSMutableArray alloc] init];
     
-    NSMutableDictionary * tallerMecanico1 = [[NSMutableDictionary alloc] initWithDictionary:@{@"nombre":@"Pereira1", @"direccion": @"Cra 45 8a 43", @"lat": @"34,8769", @"lon": @"-34,8769"}];
-    NSMutableDictionary * tallerMecanico2 = [[NSMutableDictionary alloc] initWithDictionary:@{@"nombre":@"Pereira1", @"direccion": @"Cra 45 8a 43", @"lat": @"34,8769", @"lon": @"-34,8769"}];
-    NSMutableDictionary * tallerMecanico3 = [[NSMutableDictionary alloc] initWithDictionary:@{@"nombre":@"Pereira1", @"direccion": @"Cra 45 8a 43", @"lat": @"34,8769", @"lon": @"-34,8769"}];
-    NSMutableDictionary * tallerMecanico4 = [[NSMutableDictionary alloc] initWithDictionary:@{@"nombre":@"Pereira1", @"direccion": @"Cra 45 8a 43", @"lat": @"34,8769", @"lon": @"-34,8769"}];
-    NSMutableDictionary * tallerMecanico5 = [[NSMutableDictionary alloc] initWithDictionary:@{@"nombre":@"Pereira1", @"direccion": @"Cra 45 8a 43", @"lat": @"34,8769", @"lon": @"-34,8769"}];
-    NSMutableDictionary * tallerMecanico6 = [[NSMutableDictionary alloc] initWithDictionary:@{@"nombre":@"Pereira1", @"direccion": @"Cra 45 8a 43", @"lat": @"34,8769", @"lon": @"-34,8769"}];
-    NSMutableDictionary * tallerMecanico7 = [[NSMutableDictionary alloc] initWithDictionary:@{@"nombre":@"Pereira1", @"direccion": @"Cra 45 8a 43", @"lat": @"34,8769", @"lon": @"-34,8769"}];
-    NSMutableDictionary * tallerMecanico8 = [[NSMutableDictionary alloc] initWithDictionary:@{@"nombre":@"Pereira1", @"direccion": @"Cra 45 8a 43", @"lat": @"34,8769", @"lon": @"-34,8769"}];
-    NSMutableDictionary * tallerMecanico9 = [[NSMutableDictionary alloc] initWithDictionary:@{@"nombre":@"Pereira1", @"direccion": @"Cra 45 8a 43", @"lat": @"34,8769", @"lon": @"-34,8769"}];
+    NSMutableDictionary * tallerMecanico1 = [[NSMutableDictionary alloc] initWithDictionary:@{@"nombre":@"MSM pereira", @"telefono": @"3156105532", @"lat": @"34,8769", @"lon": @"-34,8769"}];
+    NSMutableDictionary * tallerMecanico2 = [[NSMutableDictionary alloc] initWithDictionary:@{@"nombre":@"tecnicentro", @"telefono": @"3154315809", @"lat": @"34,8769", @"lon": @"-34,8769"}];
+    NSMutableDictionary * tallerMecanico3 = [[NSMutableDictionary alloc] initWithDictionary:@{@"nombre":@"Motos Pereira", @"telefono": @"3116077165", @"lat": @"34,8769", @"lon": @"-34,8769"}];
+    NSMutableDictionary * tallerMecanico4 = [[NSMutableDictionary alloc] initWithDictionary:@{@"nombre":@"Multimotos Ltda", @"telefono": @"3340788", @"lat": @"34,8769", @"lon": @"-34,8769"}];
+    NSMutableDictionary * tallerMecanico5 = [[NSMutableDictionary alloc] initWithDictionary:@{@"nombre":@"KAWA MOTOS", @"telefono": @"3250589", @"lat": @"34,8769", @"lon": @"-34,8769"}];
+    NSMutableDictionary * tallerMecanico6 = [[NSMutableDictionary alloc] initWithDictionary:@{@"nombre":@"RAIJON MOTORS", @"telefono": @"3348394", @"lat": @"34,8769", @"lon": @"-34,8769"}];
+    NSMutableDictionary * tallerMecanico7 = [[NSMutableDictionary alloc] initWithDictionary:@{@"nombre":@"Moto Center", @"telefono": @"3332884", @"lat": @"34,8769", @"lon": @"-34,8769"}];
+    NSMutableDictionary * tallerMecanico8 = [[NSMutableDictionary alloc] initWithDictionary:@{@"nombre":@"MOTOTRÉBOL", @"telefono": @"3272404", @"lat": @"34,8769", @"lon": @"-34,8769"}];
+    NSMutableDictionary * tallerMecanico9 = [[NSMutableDictionary alloc] initWithDictionary:@{@"nombre":@"recti motos", @"telefono": @"3251215", @"lat": @"34,8769", @"lon": @"-34,8769"}];
     
     [_talleres addObject:tallerMecanico1];
     [_talleres addObject:tallerMecanico2];
