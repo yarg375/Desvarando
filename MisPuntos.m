@@ -15,8 +15,8 @@
 - (id)initWithTitle:(NSString *)aTitle subtitle:(NSString*)aSubtitle andCoordinate:(CLLocationCoordinate2D)coord
 {
     self = [super init];
-    _nombre = aTitle;
-    _direccion = aSubtitle;
+    _title = aTitle;
+    _subtitle = aSubtitle;
     _coordinate = coord;
     return self;
 }

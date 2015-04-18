@@ -13,8 +13,8 @@
 @interface MisPuntos : NSObject <MKAnnotation>
 
 @property (nonatomic, readonly) CLLocationCoordinate2D coordinate;
-@property (nonatomic, readonly, copy) NSString * nombre;
-@property (nonatomic, readonly, copy) NSString * direccion;
+@property (nonatomic, readonly, copy) NSString * title;
+@property (nonatomic, readonly, copy) NSString * subtitle;
 
 - (id)initWithTitle:(NSString *)aTitle subtitle:(NSString*)aSubtitle andCoordinate:(CLLocationCoordinate2D)coord;
 
