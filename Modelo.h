@@ -10,4 +10,12 @@
 
 @interface Modelo : NSObject
 
+
+@property (nonatomic, retain) NSMutableArray * talleres;
+
++(Modelo *) sharedInstance;
+- (NSMutableArray *) Datos;
+
+
+
 @end

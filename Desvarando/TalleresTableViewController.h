@@ -10,4 +10,7 @@
 
 @interface TalleresTableViewController : UITableViewController
 
+
+@property (nonatomic, retain) NSMutableArray * talleres;
+
 @end

@@ -10,4 +10,8 @@
 
 @interface CeldaTallerTableViewCell : UITableViewCell
 
+@property (strong, nonatomic) IBOutlet UILabel *nombreTaller;
+@property (strong, nonatomic) IBOutlet UILabel *direccionTaller;
+
+
 @end

@@ -14,6 +14,20 @@
 		A429309A1AE1F66600BD5ED5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A42930991AE1F66600BD5ED5 /* Images.xcassets */; };
 		A429309D1AE1F66600BD5ED5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A429309B1AE1F66600BD5ED5 /* LaunchScreen.xib */; };
 		A42930A91AE1F66600BD5ED5 /* DesvarandoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A42930A81AE1F66600BD5ED5 /* DesvarandoTests.m */; };
+		A42930B41AE1FAE500BD5ED5 /* lista.png in Resources */ = {isa = PBXBuildFile; fileRef = A42930B21AE1FAE500BD5ED5 /* lista.png */; };
+		A42930B51AE1FAE500BD5ED5 /* lista@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A42930B31AE1FAE500BD5ED5 /* lista@2x.png */; };
+		A42930B91AE1FC0E00BD5ED5 /* gps@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A42930B71AE1FC0E00BD5ED5 /* gps@2x.png */; };
+		A42930BA1AE1FC0E00BD5ED5 /* gps.png in Resources */ = {isa = PBXBuildFile; fileRef = A42930B81AE1FC0E00BD5ED5 /* gps.png */; };
+		A42930BC1AE1FEB700BD5ED5 /* vehicle.png in Resources */ = {isa = PBXBuildFile; fileRef = A42930BB1AE1FEB700BD5ED5 /* vehicle.png */; };
+		A42930BE1AE1FF1400BD5ED5 /* vehicle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A42930BD1AE1FF1400BD5ED5 /* vehicle@2x.png */; };
+		A42930C41AE2011700BD5ED5 /* Modelo.m in Sources */ = {isa = PBXBuildFile; fileRef = A42930C31AE2011700BD5ED5 /* Modelo.m */; };
+		A42930C81AE207E200BD5ED5 /* TalleresTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A42930C71AE207E200BD5ED5 /* TalleresTableViewController.m */; };
+		A42930CB1AE210D200BD5ED5 /* CeldaTallerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A42930CA1AE210D200BD5ED5 /* CeldaTallerTableViewCell.m */; };
+		A4B93E591AE2159E005E57A1 /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B93E581AE2159E005E57A1 /* ModalViewController.m */; };
+		A4DD7C7C1AE2A13700FE1C35 /* MisPuntos.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DD7C7B1AE2A13700FE1C35 /* MisPuntos.m */; };
+		A4DD7C7E1AE2A14D00FE1C35 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4DD7C7D1AE2A14D00FE1C35 /* CoreLocation.framework */; };
+		A4DD7C801AE2A15600FE1C35 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4DD7C7F1AE2A15600FE1C35 /* MapKit.framework */; };
+		A4DD7C831AE2A33C00FE1C35 /* MapsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DD7C821AE2A33C00FE1C35 /* MapsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +54,26 @@
 		A42930A21AE1F66600BD5ED5 /* DesvarandoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesvarandoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A42930A71AE1F66600BD5ED5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A42930A81AE1F66600BD5ED5 /* DesvarandoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DesvarandoTests.m; sourceTree = "<group>"; };
+		A42930B21AE1FAE500BD5ED5 /* lista.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lista.png; sourceTree = "<group>"; };
+		A42930B31AE1FAE500BD5ED5 /* lista@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lista@2x.png"; sourceTree = "<group>"; };
+		A42930B71AE1FC0E00BD5ED5 /* gps@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gps@2x.png"; sourceTree = "<group>"; };
+		A42930B81AE1FC0E00BD5ED5 /* gps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gps.png; sourceTree = "<group>"; };
+		A42930BB1AE1FEB700BD5ED5 /* vehicle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vehicle.png; sourceTree = "<group>"; };
+		A42930BD1AE1FF1400BD5ED5 /* vehicle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vehicle@2x.png"; sourceTree = "<group>"; };
+		A42930C21AE2011700BD5ED5 /* Modelo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Modelo.h; sourceTree = "<group>"; };
+		A42930C31AE2011700BD5ED5 /* Modelo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Modelo.m; sourceTree = "<group>"; };
+		A42930C61AE207E200BD5ED5 /* TalleresTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalleresTableViewController.h; sourceTree = "<group>"; };
+		A42930C71AE207E200BD5ED5 /* TalleresTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TalleresTableViewController.m; sourceTree = "<group>"; };
+		A42930C91AE210D200BD5ED5 /* CeldaTallerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CeldaTallerTableViewCell.h; sourceTree = "<group>"; };
+		A42930CA1AE210D200BD5ED5 /* CeldaTallerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CeldaTallerTableViewCell.m; sourceTree = "<group>"; };
+		A4B93E571AE2159E005E57A1 /* ModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
+		A4B93E581AE2159E005E57A1 /* ModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
+		A4DD7C7A1AE2A13700FE1C35 /* MisPuntos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MisPuntos.h; sourceTree = "<group>"; };
+		A4DD7C7B1AE2A13700FE1C35 /* MisPuntos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MisPuntos.m; sourceTree = "<group>"; };
+		A4DD7C7D1AE2A14D00FE1C35 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A4DD7C7F1AE2A15600FE1C35 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A4DD7C811AE2A33C00FE1C35 /* MapsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapsViewController.h; sourceTree = "<group>"; };
+		A4DD7C821AE2A33C00FE1C35 /* MapsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +81,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4DD7C801AE2A15600FE1C35 /* MapKit.framework in Frameworks */,
+				A4DD7C7E1AE2A14D00FE1C35 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +99,8 @@
 		A42930801AE1F66600BD5ED5 = {
 			isa = PBXGroup;
 			children = (
+				A4DD7C7F1AE2A15600FE1C35 /* MapKit.framework */,
+				A4DD7C7D1AE2A14D00FE1C35 /* CoreLocation.framework */,
 				A429308B1AE1F66600BD5ED5 /* Desvarando */,
 				A42930A51AE1F66600BD5ED5 /* DesvarandoTests */,
 				A429308A1AE1F66600BD5ED5 /* Products */,
@@ -81,11 +119,11 @@
 		A429308B1AE1F66600BD5ED5 /* Desvarando */ = {
 			isa = PBXGroup;
 			children = (
-				A42930901AE1F66600BD5ED5 /* AppDelegate.h */,
-				A42930911AE1F66600BD5ED5 /* AppDelegate.m */,
-				A42930931AE1F66600BD5ED5 /* ViewController.h */,
-				A42930941AE1F66600BD5ED5 /* ViewController.m */,
-				A42930961AE1F66600BD5ED5 /* Main.storyboard */,
+				A42930C51AE2012000BD5ED5 /* Modelo */,
+				A42930BF1AE2003800BD5ED5 /* Delegate */,
+				A42930B61AE1FAEC00BD5ED5 /* Media */,
+				A42930C01AE2004300BD5ED5 /* Controller */,
+				A42930C11AE2005000BD5ED5 /* View */,
 				A42930991AE1F66600BD5ED5 /* Images.xcassets */,
 				A429309B1AE1F66600BD5ED5 /* LaunchScreen.xib */,
 				A429308C1AE1F66600BD5ED5 /* Supporting Files */,
@@ -117,6 +155,73 @@
 				A42930A71AE1F66600BD5ED5 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A42930B61AE1FAEC00BD5ED5 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				A42930B71AE1FC0E00BD5ED5 /* gps@2x.png */,
+				A42930B81AE1FC0E00BD5ED5 /* gps.png */,
+				A42930BD1AE1FF1400BD5ED5 /* vehicle@2x.png */,
+				A42930B21AE1FAE500BD5ED5 /* lista.png */,
+				A42930BB1AE1FEB700BD5ED5 /* vehicle.png */,
+				A42930B31AE1FAE500BD5ED5 /* lista@2x.png */,
+			);
+			name = Media;
+			sourceTree = "<group>";
+		};
+		A42930BF1AE2003800BD5ED5 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				A42930901AE1F66600BD5ED5 /* AppDelegate.h */,
+				A42930911AE1F66600BD5ED5 /* AppDelegate.m */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		A42930C01AE2004300BD5ED5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A4B93E571AE2159E005E57A1 /* ModalViewController.h */,
+				A4B93E581AE2159E005E57A1 /* ModalViewController.m */,
+				A42930931AE1F66600BD5ED5 /* ViewController.h */,
+				A42930941AE1F66600BD5ED5 /* ViewController.m */,
+				A42930C61AE207E200BD5ED5 /* TalleresTableViewController.h */,
+				A42930C71AE207E200BD5ED5 /* TalleresTableViewController.m */,
+				A4DD7C811AE2A33C00FE1C35 /* MapsViewController.h */,
+				A4DD7C821AE2A33C00FE1C35 /* MapsViewController.m */,
+				A4B93E561AE21399005E57A1 /* Celdas */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A42930C11AE2005000BD5ED5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A42930961AE1F66600BD5ED5 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A42930C51AE2012000BD5ED5 /* Modelo */ = {
+			isa = PBXGroup;
+			children = (
+				A42930C21AE2011700BD5ED5 /* Modelo.h */,
+				A42930C31AE2011700BD5ED5 /* Modelo.m */,
+				A4DD7C7A1AE2A13700FE1C35 /* MisPuntos.h */,
+				A4DD7C7B1AE2A13700FE1C35 /* MisPuntos.m */,
+			);
+			name = Modelo;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		A4B93E561AE21399005E57A1 /* Celdas */ = {
+			isa = PBXGroup;
+			children = (
+				A42930C91AE210D200BD5ED5 /* CeldaTallerTableViewCell.h */,
+				A42930CA1AE210D200BD5ED5 /* CeldaTallerTableViewCell.m */,
+			);
+			name = Celdas;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,8 +305,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A42930981AE1F66600BD5ED5 /* Main.storyboard in Resources */,
+				A42930BE1AE1FF1400BD5ED5 /* vehicle@2x.png in Resources */,
+				A42930B91AE1FC0E00BD5ED5 /* gps@2x.png in Resources */,
+				A42930B41AE1FAE500BD5ED5 /* lista.png in Resources */,
 				A429309D1AE1F66600BD5ED5 /* LaunchScreen.xib in Resources */,
+				A42930B51AE1FAE500BD5ED5 /* lista@2x.png in Resources */,
 				A429309A1AE1F66600BD5ED5 /* Images.xcassets in Resources */,
+				A42930BC1AE1FEB700BD5ED5 /* vehicle.png in Resources */,
+				A42930BA1AE1FC0E00BD5ED5 /* gps.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +330,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4DD7C7C1AE2A13700FE1C35 /* MisPuntos.m in Sources */,
+				A42930C81AE207E200BD5ED5 /* TalleresTableViewController.m in Sources */,
 				A42930951AE1F66600BD5ED5 /* ViewController.m in Sources */,
+				A4B93E591AE2159E005E57A1 /* ModalViewController.m in Sources */,
 				A42930921AE1F66600BD5ED5 /* AppDelegate.m in Sources */,
+				A4DD7C831AE2A33C00FE1C35 /* MapsViewController.m in Sources */,
+				A42930CB1AE210D200BD5ED5 /* CeldaTallerTableViewCell.m in Sources */,
 				A429308F1AE1F66600BD5ED5 /* main.m in Sources */,
+				A42930C41AE2011700BD5ED5 /* Modelo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +533,7 @@
 				A42930AE1AE1F66600BD5ED5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A42930AF1AE1F66600BD5ED5 /* Build configuration list for PBXNativeTarget "DesvarandoTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +542,7 @@
 				A42930B11AE1F66600BD5ED5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

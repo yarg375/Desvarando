@@ -10,4 +10,6 @@
 
 @interface ModalViewController : UIViewController
 
+
+- (IBAction)closeModdal:(id)sender;
 @end
